@@ -8,9 +8,9 @@
     z-index: 999;
     padding: 1rem 0;
 
-    .nav-brand a{
+    .nav-brand a {
         color: #fff;
-        font-weight: 600;
+        font-weight: 900;
         text-decoration: none;
         letter-spacing: 2px;
     }
@@ -20,8 +20,10 @@
         justify-content: center;
         align-items: center;
 
-        .nav-link a {
+        .nav-link {
+            cursor: pointer;
             color: aliceblue;
+            font-weight: 600;
             text-decoration: none;
             padding: 0 1rem;
         }
@@ -53,11 +55,8 @@
 
             .nav-link {
                 margin: .5rem 0;
-
-                a {
-                    font-size: 18px;
-                    color: #fff;
-                }
+                font-size: 18px;
+                color: #fff;
             }
         }
 
